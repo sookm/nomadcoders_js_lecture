@@ -92,7 +92,7 @@ let something;
 
 console.log(something, amIFat); // 
 // > undefined null  => they are different 
-// undefined is a type.
+// undefined is a type
 
 //**Null never happens Automatically.
 // Null is something that happens when we want to make sure 
