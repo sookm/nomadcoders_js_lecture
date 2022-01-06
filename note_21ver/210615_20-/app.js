@@ -1,3 +1,4 @@
+// #2.3 const and let
 console.log("lalala")
 //send message to the console. 
 //=> you can put "numbers" and "strings".
@@ -33,8 +34,8 @@ let myName = "turi";
 console.log("hello, " + myName + "!");
 
 //**Javascript has two ways of creating a valuable
-//-one way is using const
-//-the other way is using let
+//-one way is using "const'
+//-the other way is using "let"
 
 //let a = 5;
 //let b = 2;
@@ -50,14 +51,14 @@ myName = "turituri";
 //**let is for when you want to create a NEW ONE.
 console.log("hello, " + myName + "!");
 
-//=>let means it could be updated somewhere in this program.
+//=>"let" means it "could be updated" somewhere in this program.
 
-//**everybody uses const by default. 
+//**everybody uses "const" "by default". **
 //and then if you wnat to Update, use let 
 
-//var works but it can NOT let us to lock some values.
+//"var" works but it can NOT let us to lock some values.
 //vars don't have any of the rules. 
-//**  */=> Never Use Var
+//**  */=> "Never Use Var"
 
 // #2.4 Booleans
 // data type - number, string
@@ -74,7 +75,7 @@ console.log(amIFat);
 // *Null
 //there are some datatypes that are Non-existing, 
 //that are Non-defined, or that are Nothing on Javascript
-//one is Null means nothing and there is nothing 
+//one is Null means nothing and there is nothing there
 // Null is different from false. 
 //**false has a value. **Null is that there is nothing here. 
 
