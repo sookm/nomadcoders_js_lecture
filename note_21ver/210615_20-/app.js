@@ -72,12 +72,16 @@ console.log(amIFat);
 //      is the video playing? -> true or false
 //      is the website loading? -> true or false
 
+
 // *Null
-//there are some datatypes that are Non-existing, 
-//that are Non-defined, or that are Nothing on Javascript
-//one is Null means nothing and there is nothing there
+const amIFat = null;
+console.log(amIFat);
+// > null
+// there are some datatypes that are Non-existing, 
+// that are Non-defined, or that are Nothing on Javascript
+// one is Null means nothing and there is nothing there
 // Null is different from false. 
-//**false has a value. **Null is that there is nothing here. 
+// **false has a value. **Null is that there is nothing here. 
 
 
 // *undefined
@@ -85,6 +89,8 @@ console.log(amIFat);
 // and the computer is aware of the variable.
 // But it does NOT have A Value.
 let something;  
+console.log(something);
+// > undefined
 //createing something Variable
 //but Not giving it any Values
 //=> A variable exists. but is Not Defined.
@@ -98,4 +104,4 @@ console.log(something, amIFat); //
 //**Null never happens Automatically.
 // Null is something that happens when we want to make sure 
 //that somethig doesn't exist in our variables.
-// Telling Javascript that this value is Nothing literally.
+// Telling Javascript that this value is "Nothing" literally.
