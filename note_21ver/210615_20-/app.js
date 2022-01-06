@@ -40,7 +40,7 @@ console.log("hello, " + myName + "!");
 //let b = 2;
 //let myName = "turi";
 
-//차이점은 const는 constant(상수),can NOT CHANGE
+//차이점은 const는 constant(상수),can NOT CHANGED
 //but sometimes you want to change a valuable 
 //or sometimes you want to Update or you dont 
 
